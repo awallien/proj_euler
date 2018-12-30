@@ -12,7 +12,9 @@ My main objective is to solve each problem using algorithms with the "best" runt
 In other words, I want my algorithms to compute the answers to the problems in under 1 minute (or better, 5 seconds).
 
 ### MY FRIEND KEY
-Add me as a friend on Project Euler!
+Add me as a friend on Project Euler!  
+
+User: aswall  
 
 Key: 1386943_LnBxonZ0VTAAxQckhpZdzGlQdNabhvO9 
 
@@ -22,7 +24,7 @@ Key: 1386943_LnBxonZ0VTAAxQckhpZdzGlQdNabhvO9
 ### TIMES & RESULTS
 | No. | Avg. Time |
 | --- | ---|
-| 1 | 0.000000 |
+|1|0.000000|
 |2|0.000000|
 |3|0.248027|
 |4|1.318990|
@@ -35,7 +37,7 @@ Key: 1386943_LnBxonZ0VTAAxQckhpZdzGlQdNabhvO9
 |11|0.067921|
 |12|6.924319|
 |13|0.068829|
-|14|91.202385|
+|14|91.202385 (_yikes..._)| 
 |15|0.000000|
 |16|0.000000|
 |17|0.002996|
