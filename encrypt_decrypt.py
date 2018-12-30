@@ -4,7 +4,7 @@ from os.path import getsize
 
 
 if len(sys.argv) != 4:
-    print("Usage: python3 encrypt_decrypt.py e/d <filename> <password file>")
+    print("Usage: python3 encrypt_decrypt.py e/d <filename> <password file>", file=sys.stderr)
     exit(1)
 
 cmd = sys.argv[1]
