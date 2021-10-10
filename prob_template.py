@@ -12,7 +12,7 @@ def _write_time_sol(f):
     Writes the timing the computation function
     :param f: the file
     """
-    f.write("def time_sol(func):\n\n")
+    f.write("def time_sol(func):\n")
     f.write("\tstart = time.time()\n")
     f.write("\tres = func()\n")
     f.write("\tfinish = time.time()\n")
@@ -71,15 +71,14 @@ def write_template(s, t):
     if s > t:
         raise Exception("Starting number is greater than ending number (%d > %d)" % (s, t))
 
-    f = open("prob%d_%d.py" % (s, t), "w")
-
-    _write_imports(f)
-    _write_newlines(f)
-    _write_time_sol(f)
-    _write_newlines(f)
-    _write_stubs(f, s, t)
-    _write_newlines(f)
-    _write_main(f, s, t)
+    with open("prob%d_%d.py" % (s, t), "w") as f:
+        _write_imports(f)
+        _write_newlines(f)
+        _write_time_sol(f)
+        _write_newlines(f)
+        _write_stubs(f, s, t)
+        _write_newlines(f)
+        _write_main(f, s, t)
 
 
 if __name__ == '__main__':
