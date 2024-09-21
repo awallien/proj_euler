@@ -24,7 +24,7 @@ def _write_imports(f):
     writes the import modules into the python file
     :param f: the file
     """
-    lib = ["math", "sympy", "itertools", "time"]
+    lib = ["math", "sympy", "itertools", "time", "numpy"]
     for l in lib:
         f.write("import %s\n" % l)
 

@@ -1,0 +1,4 @@
+/prob[0-9]+_[0-9]+.py
+password.txt
+venv
+.idea
